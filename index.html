@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ES">
 <head>
@@ -6,10 +7,28 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<title>Camino Aparecido</title>
 
-<head>
 		<title>Camino Aparecido</title>
 		<link href="style-texto.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,500italic,700italic,700' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery.min.js"></script><style type="text/css"></style>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			$('html, body, *').mousewheel(function(e, delta) {
+				this.scrollLeft -= (delta * 40);
+				e.preventDefault();
+			});
+
+		});
+	</script>
+
+<!-- Enable HTML5 for old browsers -->
+	<!--[if lte IE 8]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
 </head>
 
 <body>
@@ -19,61 +38,203 @@
 	</div><!--caja-header-->
 </header>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+
+
 <div id="escena1">
 	<div id="contenedor">
-		<div class="contenido">
-			<div class= "imagen"> 
-				<img src="img/Recorrido4(2).jpg" alt="escena1"/>
-				
-				<div class= "texto"> <h2>De la Utopía del Espejismo</h2>
-					<p>El habitante y su quehacer quedan expuestos ante la mirada de otros. La hospitalidad se convierte en el eje esencial de este lugar entre los habitantes y el taller. Hacemos travesía. Con el inicio de la obra y el descubrimiento del lugar las ideas y propuestas surgen en aquella hospitalidad mencionada y en la celebración de lo nuevo y el regalo. La ciudad del sol aparece ante el taller trayendo una nueva dimensión: la horizontalidad. Se presenta una escala más próxima al hombre, donde éste se vuelve protagonista ante un entorno más amable debido a sus tamaños.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+		
+		<div class="caja">
+			<div class="imagen"><img src= "img/Recorrido1.jpg"alt="escena1"/>
+
+					<div class="cajatexto">
+					<h2></h2>
+					<p>"El habitante y su quehacer quedan expuestos ante la mirada de otros. La hospitalidad se convierte en el eje esencial de este lugar entre los habitantes y el taller. Hacemos travesía. Con el inicio de la obra y el descubrimiento del lugar las ideas y propuestas surgen en aquella hospitalidad mencionada y en la celebración de lo nuevo y el regalo. La ciudad del sol aparece ante el taller trayendo una nueva dimensión: la horizontalidad. Se presenta una escala más próxima al hombre, donde éste se vuelve protagonista ante un entorno más amable debido a sus tamaños"</p>
+					</div><!--texto-->
+
+			</div><!--imagen-->	
+
+		</div><!--caja-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
 
 <div id="escena2">
 	<div id="contenedor">
+
 		<div class="contenido">
-			<div class= "imagen"> 
-				<img src="img/Recorrido4(4).jpg" alt="escena1"/>
-				
-				<div class= "texto">
-					<p>El habitante y su quehacer quedan expuestos ante la mirada de otros. La hospitalidad se convierte en el eje esencial de este lugar entre los habitantes y el taller. Hacemos travesía. Con el inicio de la obra y el descubrimiento del lugar las ideas y propuestas surgen en aquella hospitalidad mencionada y en la celebración de lo nuevo y el regalo. La ciudad del sol aparece ante el taller trayendo una nueva dimensión: la horizontalidad. Se presenta una escala más próxima al hombre, donde éste se vuelve protagonista ante un entorno más amable debido a sus tamaños.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+			
+			<div class= "caja"> 
+
+			<div class="imagen"><img src= "img/Recorrido2.jpg"alt="escena2"/>
+
+				<!--<div class= "cajatexto"> 
+					<h2></h2>
+					<p></p>
+
+			</div>texto-->
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
 <div id="escena3">
 	<div id="contenedor">
 		<div class="contenido">
-			<div class= "imagen"> 
-				<img src="img/Recorrido4(5).jpg" alt="escena1"/>
+			
+			<div class= "caja"> 
+
+			<div class="imagen"><img src= "img/Recorrido3.jpg"alt="escena3"/>
 				
-				<div class= "texto">
-					<p>El habitante y su quehacer quedan expuestos ante la mirada de otros. La hospitalidad se convierte en el eje esencial de este lugar entre los habitantes y el taller. Hacemos travesía. Con el inicio de la obra y el descubrimiento del lugar las ideas y propuestas surgen en aquella hospitalidad mencionada y en la celebración de lo nuevo y el regalo. La ciudad del sol aparece ante el taller trayendo una nueva dimensión: la horizontalidad. Se presenta una escala más próxima al hombre, donde éste se vuelve protagonista ante un entorno más amable debido a sus tamaños.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
+				<div class= "cajatexto"> 
+					<h2></h2>
+					<p>"La dimensión restada es el tiempo, su espesor, pues “fue o será”, que son modalidades de la temporalidad, no se requieren en la mera presentación.</p>
+
+<p>Más, ¿puede construirse un espejismo? Es decir; ¿qué significa construir con una dimensión de menos, con el “tiempo” restado?</p>
+
+<p>Tal vez signifique que la construcción no debe “fundarse” en la expectación o término que apoye la perspectiva de un futuro siempre distante (meta-modelo), pronto, siempre, a alcanzarse (apertura propia de la temporalidad)"</p>
+
+			</div><!--texto-->
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
 <div id="escena4">
 	<div id="contenedor">
 		<div class="contenido">
-			<div class= "imagen"> 
-				<img src="img/Recorrido4(6).jpg" alt="escena1"/>
+			
+			<div class= "caja"> 
+			<div class="imagen"><img src= "img/Recorrido4.jpg"alt="escena4"/>
 				
-				<div class= "texto">
-					<p>El habitante y su quehacer quedan expuestos ante la mirada de otros. La hospitalidad se convierte en el eje esencial de este lugar entre los habitantes y el taller. Hacemos travesía. Con el inicio de la obra y el descubrimiento del lugar las ideas y propuestas surgen en aquella hospitalidad mencionada y en la celebración de lo nuevo y el regalo. La ciudad del sol aparece ante el taller trayendo una nueva dimensión: la horizontalidad. Se presenta una escala más próxima al hombre, donde éste se vuelve protagonista ante un entorno más amable debido a sus tamaños.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
+				<div class= "cajatexto"> 
+					<h2></h2>
+					<p>"Un paso semejante aligera su juego. Se desprende, no se asienta principalmente en “lo perdurable”. Es decir, no se construye para ello, ni en pro, ni en contra.</p>
+
+<p>Si esto es posible, se modifica la relación con el factor que implica necesariamente la permanencia. Ese factor preponderante para la permanencia es el dominio considerado en sí mismo, por cuanto, en última instancia, el dominio se erige en garantía, en seguro de su función pre-visora respecto del “modelo-meta” que deberá ser alcanzado y que sobrevendrá, por cierto, un día – es decir en el tiempo. Si se construye no asentándose en el dominio y sus metas, la tarea no tiende hacia un futuro, no es medio, sino presencia que allí y así, por y con la tarea, aparece. “Allí” es “así y ahora”."</p>
+
+			</div><!--texto-->
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+<div id="escena5">
+	<div id="contenedor">
+		<div class="contenido">
+			
+			<div class= "caja"> 
+			<div class="imagen"><img src= "img/Recorrido5.jpg"alt="escena5"/>
+				
+
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+<div id="escena6">
+	<div id="contenedor">
+		
+		<div class="caja">
+			<div class= "imagen"><img src= "img/Recorrido6.jpg"alt="escena6"/>
 
 
+			</div><!--imagen-->	
+
+		</div><!--caja-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+
+<div id="escena7">
+	<div id="contenedor">
+
+		<div class="contenido">
+			
+			<div class= "caja"> 
+			<div class="imagen"><img src= "img/Recorrido7.jpg"alt="escena7"/>
+
+				
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+<div id="escena8">
+	<div id="contenedor">
+		<div class="contenido">
+			
+			<div class= "caja"> 
+			<div class="imagen"><img src= "img/Recorrido8.jpg"alt="escena8"/>
+				
+
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+<div id="escena9">
+	<div id="contenedor">
+		<div class="contenido">
+			
+			<div class= "caja">
+			<div class="imagen"><img src= "img/Recorrido9.jpg"alt="escena9"/>
+				
+
+				<div class= "cajatexto"> 
+					<h2></h2>
+					<p>Al recorrer la Ciudad Abierta para realizar los primeros dibujos, uno puede observar aquella dimensión restada en la obras ya que estas no pretenden ser mas preponderantes que el lugar mismo, sino que estas van apareciendo en la medida que uno avanza en el camino, las obras son con el lugar, como si estuvieran posadas en el terreno.</p>
+
+			</div><!--texto-->
+			
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+<div id="escena10">
+	<div id="contenedor">
+		<div class="contenido">
+			
+			<div class= "caja">
+			<div class="imagen"><img src= "img/Recorrido10.jpg"alt="escena10"/>
+				
+				<div class= "cajatexto"> 
+				<h2></h2>
+					<p>El Anfiteatro podría ser uno muchísimo mas grande, un lugar para recibir a un gran número de personas pero no lo hace, ya que este simplemente esta en el lugar, sin un fin predeterminado aunque lo tiene igualmente así como la Capilla, que mas que ser un templo, es un espacio totalmente abierto unido al camino, camino posado en aquel construido por el correr del agua. Los materiales, las formas y la manera en que están construidas las obras en el recorrido, parecieran no importarles el tiempo, la durabilidad sino que simplemente estar ahí. Es por esto que en los dibujos tiene que estar abarcado en la extensión del lugar, no es un enfoque en las obras sino en la experiencia de recorrer este camino con aquellas dos dimensiones Obra-Extensión.</p>
+
+			</div><!--texto-->
+
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
+
+<div id="escena11">
+	<div id="contenedor">
+		<div class="contenido">
+			
+			<div class= "caja2"> 
+			<div class="imagen"><img src= "img/Recorrido11.jpg"alt="escena11"/>
+				
+
+				
+		</div><!--imagen-->	
+
+		</div><!--contenido-->
+	</div><!--contenedor-->
+</div><!--escena1-->
 
 </body>
 </html>
